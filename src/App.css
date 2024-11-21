@@ -1,0 +1,74 @@
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #444;
+}
+
+.nav-bar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bar li {
+	margin-right: 20px;
+}
+
+.nav-bar button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.home-page {
+	text-align: center;
+	padding: 50px;
+}
+
+.about-us-page {
+	padding: 50px;
+}
+
+.about-us-page h2 {
+	margin-bottom: 20px;
+}
+
+.contact-us-page {
+	padding: 50px;
+}
+
+.contact-us-page h2 {
+	margin-bottom: 20px;
+}
+
+.contact-us-page form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-us-page input,
+.contact-us-page textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.contact-us-page button[type="submit"] {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

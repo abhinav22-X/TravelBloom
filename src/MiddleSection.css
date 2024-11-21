@@ -1,0 +1,64 @@
+.middle-section {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.home-page {
+	text-align: center;
+	padding: 50px;
+}
+
+.about-us-page {
+	padding: 50px;
+}
+
+.about-us-page h2 {
+	margin-bottom: 20px;
+}
+
+.contact-us-page {
+	padding: 50px;
+}
+
+.contact-us-page h2 {
+	margin-bottom: 20px;
+}
+
+.contact-us-page form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-us-page input,
+.contact-us-page textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.contact-us-page button[type="submit"] {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.nav-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.nav-buttons button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 20px;
+}
